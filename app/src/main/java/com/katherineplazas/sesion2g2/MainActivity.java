@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
-
+    //metodo para fecha
     public void LlamarFecha(View view) {
 
         datePickerDialog = new DatePickerDialog(MainActivity.this, new DatePickerDialog.OnDateSetListener() {
