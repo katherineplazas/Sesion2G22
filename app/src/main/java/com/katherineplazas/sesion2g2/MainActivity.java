@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         nombre = eNombre.getText().toString();
         eCorreo.setText(nombre);
     }
-
+    //metodo para el radiobutton
     public void onRadioButtonClicked(View view) {
         int id = view.getId();
         if(id == R.id.rMasculino){
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             eCorreo.setText("Femenino");
         }
     }
-    //metodo para 
+    //metodo para
     public void onCheckboxClicked(View view) {
         int id = view.getId();
         switch (id){
