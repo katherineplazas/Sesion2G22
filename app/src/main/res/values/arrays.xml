@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_ciudedes">
+        <item>Medellin</item>
+        <item>Cartegena</item>
+        <item>Neiva</item>
+        <item>Supia</item>
+    </string-array>
+</resources>

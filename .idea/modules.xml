@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calculadora/Calculadora.iml" filepath="$PROJECT_DIR$/Calculadora/Calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sesion2G22.iml" filepath="$PROJECT_DIR$/Sesion2G22.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculadora_geometrica/calculadora_geometrica.iml" filepath="$PROJECT_DIR$/calculadora_geometrica/calculadora_geometrica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resistencia/resistencia.iml" filepath="$PROJECT_DIR$/resistencia/resistencia.iml" />
     </modules>
   </component>
 </project>

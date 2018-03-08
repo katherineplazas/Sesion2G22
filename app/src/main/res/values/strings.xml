@@ -1,17 +1,26 @@
 <resources>
-    <string name="app_name">Sesion2G2</string>
-    <string name="titulo">Formulario</string>
-    <string name="usuario">Usuario:</string>
-    <string name="correo">Correo</string>
-    <string name="guardar">Guardar</string>
+    <string name="app_name">Formulario</string>
+    <string name="titulo">Información</string>
+    <string name="usuario">Usuario: </string>
+    <string name="correo">correo@ejemplo.com</string>
+    <string name="guardar">Aceptar</string>
     <string name="masculino">Masculino</string>
     <string name="femenino">Femenino</string>
-    <string name="pasatiempos">Pasatiempos</string>
+    <string name="pasatiempos">Pasatiempo: </string>
     <string name="nadar">Nadar</string>
     <string name="cine">Cine</string>
     <string name="correr">Correr</string>
     <string name="password">Contraseña:</string>
     <string name="rpassword">Repetir contraseña:</string>
-    <string name="nacimiento">Fecha de nacimiento</string>
+    <string name="nacimiento">Fecha de nacimiento: </string>
     <string name="fecha">Fecha</string>
+    <string name="bailar">Bailar</string>
+    <string name="cuidad">Ciudad: </string>
+    <string name="llenarcampo">Campo vacío.</string>
+    <string name="diferentepass">Contraseñas diferentes</string>
+    <string name="selsexo">Seleccionar sexo.</string>
+    <string name="selfecha">Seleccionar fecha.</string>
+    <string name="selpasatiempo">Seleccione pasatiempo.</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="correoeletronico">Correo electrónico:</string>
 </resources>

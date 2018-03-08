@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora De Resistencias</string>
+    <string name="resistencia">Resistencia:</string>
+    <string name="valor_ini">200 Ω  ±5%</string>
+    <string name="banda">Banda:</string>
+    <string name="colores">Colores</string>
+</resources>

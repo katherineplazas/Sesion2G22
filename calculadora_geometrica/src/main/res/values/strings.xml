@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Calculadora Geometrica</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="lado">L (cm):</string>
+    <string name="area">Area (cm^2):</string>
+    <string name="perimetro">Perimetro (cm):</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="a_triangulo">A (cm):</string>
+    <string name="b_triangulo">B (cm):</string>
+    <string name="C_triangulo">C (cm):</string>
+    <string name="ciculo">Círculo</string>
+    <string name="radio">R (cm):</string>
+    <string name="cubo">Cubo</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="llenarcampo">Casilla vacía</string>
+    <string name="notriangulo">Los lados ingresados no forman un triángulo</string>
+    <string name="volumen">Volumen (cm^3):</string>
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.katherineplazas.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/eDatos"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:textIsSelectable="true"
+            android:gravity="end"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.32"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/bBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="@string/Borrar"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:onClick="fClear"/>
+            <Button
+                android:id="@+id/bBorrar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="@string/Borrar1"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:onClick="fClear"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bSiete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Siete"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bOcho"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="@string/Ocho"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bNueve"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Nueve"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bMas"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Mas"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/bCuatro"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Cuatro"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bCinco"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="@string/Cinco"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bSeis"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Seis"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bMenos"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Menos"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/bUno"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Uno"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bDos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="@string/Dos"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bTres"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Tres"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bFactor"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Factor"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/bPunto"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Punto"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bCero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:text="@string/Cero"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+
+        <Button
+            android:id="@+id/bIgual"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Igual"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fResultado"/>
+
+        <Button
+            android:id="@+id/bDiv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:text="@string/Div"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:onClick="fNumeros"/>
+    </LinearLayout>
+</LinearLayout>
