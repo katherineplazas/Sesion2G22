@@ -219,6 +219,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
+        
         eDatos.setText(String.format("%.4f",resultado));
         flagpunto = 1;
         flagoperador = 0;
